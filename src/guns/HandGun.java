@@ -1,6 +1,6 @@
 package guns;
 
-public class HandGun extends Gun {
+public class HandGun implements Gun {
 
     private final String model = "ОЦ-21С";
 

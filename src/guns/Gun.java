@@ -1,6 +1,6 @@
 package guns;
 
-public abstract class Gun {
+public interface Gun {
 
-    public abstract void shoot(Target target);
+    void shoot(Target target);
 }

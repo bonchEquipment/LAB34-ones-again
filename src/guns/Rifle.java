@@ -1,6 +1,6 @@
 package guns;
 
-public class Rifle extends Gun {
+public class Rifle implements Gun {
 
     private final String model = "M4A4";
 
